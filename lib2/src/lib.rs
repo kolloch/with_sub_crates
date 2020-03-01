@@ -1,3 +1,3 @@
-pub fn test() {
-    println!("lib2");
+pub fn test() -> &'static str {
+    "lib2"
 }
